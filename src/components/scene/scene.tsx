@@ -37,15 +37,15 @@ export function Scene() {
                     "transition-opacity duration-1000",
                     sceneLoading && "opacity-0",
                 )}
-                onMouseDownCapture={() => {
-                    handleHelperShown();
-                }}
-                onStart={() => {
+                onLoad={() => {
                     setSceneLoading(false);
 
                     if (!helperShown) {
                         showHelper();
                     }
+                }}
+                onMouseDownCapture={() => {
+                    handleHelperShown();
                 }}
                 onTouchStart={() => {
                     handleHelperShown();

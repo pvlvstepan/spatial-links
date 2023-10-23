@@ -11,7 +11,7 @@
     },
     "dependencies": {
         "@splinetool/react-spline": "^2.2.6",
-        "@splinetool/runtime": "^0.9.485",
+        "@splinetool/runtime": "^0.9.486",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.0.0",
         "lucide-react": "^0.288.0",
