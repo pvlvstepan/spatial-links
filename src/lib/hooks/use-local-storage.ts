@@ -1,9 +1,11 @@
 /* eslint-disable no-console -- necessary for debugging purposes */
 
+import { useCallback, useEffect, useState } from "react";
+
+import type { Dispatch, SetStateAction } from "react";
+
 import { useEventCallback } from "./use-event-callback";
 import { useEventListener } from "./use-event-listener";
-import type { Dispatch, SetStateAction } from "react";
-import { useCallback, useEffect, useState } from "react";
 
 // A wrapper for "JSON.parse()"" to support "undefined" value
 function parseJSON<T>(value: string | null): T | undefined {

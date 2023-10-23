@@ -17,7 +17,23 @@ const config = {
         "prettier-plugin-tailwindcss",
     ],
     // TODO: setup importOrder
-    importOrder: [],
+    importOrder: [
+        "<BUILT_IN_MODULES>",
+        "",
+        "^react$",
+        "",
+        "<THIRD_PARTY_MODULES>",
+        "",
+        "<TYPES>",
+        "",
+        "<TYPES>^[.]",
+        "",
+        "^(@/.*)$",
+        "",
+        "^[.]",
+        "",
+        ".css$",
+    ],
     tailwindFunctions: ["cva", "cn"],
 };
 

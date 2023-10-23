@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils/cn";
 import { Loader2 } from "lucide-react";
+
+import { cn } from "@/lib/utils/cn";
 
 export type SpinnerProps = React.SVGAttributes<SVGElement>;
 

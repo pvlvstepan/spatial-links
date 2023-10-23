@@ -1,5 +1,6 @@
-import { cn } from "@/lib/utils/cn";
 import { Rotate3D } from "lucide-react";
+
+import { cn } from "@/lib/utils/cn";
 
 interface SceneHelperProps {
     helperVisible?: boolean;

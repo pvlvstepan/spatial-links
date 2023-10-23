@@ -1,11 +1,13 @@
 "use client";
 
-import { SceneHelper } from "./scene-helper";
-import { SceneLoader } from "./scene-loader";
+import { useState } from "react";
+
 import { SplineClient } from "@/components/client/spline-client";
 import { useLocalStorage } from "@/lib/hooks/use-local-storage";
 import { cn } from "@/lib/utils/cn";
-import { useState } from "react";
+
+import { SceneHelper } from "./scene-helper";
+import { SceneLoader } from "./scene-loader";
 
 export function Scene() {
     const [helperVisible, setHelperVisible] = useState(false);

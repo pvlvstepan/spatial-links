@@ -1,5 +1,6 @@
-import type { Config } from "tailwindcss";
 import defaultTheme from "tailwindcss/defaultTheme";
+
+import type { Config } from "tailwindcss";
 
 const config: Config = {
     darkMode: ["class"],
