@@ -16,6 +16,7 @@ const config = {
         "@ianvs/prettier-plugin-sort-imports",
         "prettier-plugin-tailwindcss",
     ],
+    // TODO: setup importOrder
     importOrder: [],
     tailwindFunctions: ["cva", "cn"],
 };
