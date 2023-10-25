@@ -8,6 +8,14 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
     title: "Stepan Pavlov",
+    themeColor: "#000000",
+    description: "Frontend Developer. Let's connect",
+    colorScheme: "dark",
+    openGraph: {
+        type: "website",
+        description: "Frontend Developer. Let's connect",
+        siteName: "Portfolio",
+    },
 };
 
 export default function RootLayout({
