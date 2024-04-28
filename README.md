@@ -2,7 +2,8 @@
 
 ![cover](public/cover.png)
 
-[![pages-build-deployment](https://github.com/pvlvstepan/movie-lister/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pvlvstepan/movie-lister/actions/workflows/pages/pages-build-deployment)
+![GitHub deployments](https://img.shields.io/github/deployments/pvlvstepan/spatial-links/production?logo=vercel&label=Vercel)
+
 
 ## Installation
 
