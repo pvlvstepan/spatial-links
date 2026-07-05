@@ -1,9 +1,6 @@
 # Spatial Links
 
-![cover](public/cover.png)
-
 ![GitHub deployments](https://img.shields.io/github/deployments/pvlvstepan/spatial-links/production?logo=vercel&label=Vercel)
-
 
 ## Installation
 
